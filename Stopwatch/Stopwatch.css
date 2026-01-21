@@ -1,0 +1,26 @@
+.wrapper {
+  border: 4px solid rgb(0, 129, 210);
+  border-radius: 100%;
+  height: 250px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: radial-gradient(circle, #00f2ff, #002aff);
+  color: white;
+  font-size: 40px;
+  padding: 10px;
+}
+.btn {
+  padding: 7px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  background: linear-gradient(rgb(7, 62, 149), rgb(0, 213, 255));
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #001ba5;
+}

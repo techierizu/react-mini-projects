@@ -1,0 +1,31 @@
+.Modal {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 60vw;
+  padding: 10px;
+  border: 2px solid rgb(118, 131, 134);
+  background-color: rgb(245, 245, 245);
+  border-radius: 5px;
+  box-shadow: 10px 5px 10px 10px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(218, 218, 218, 0.762);
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+.buttonX {
+  height: 30px;
+  width: 30px;
+}

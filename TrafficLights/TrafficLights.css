@@ -1,0 +1,41 @@
+.container {
+  background-color: rgb(22, 22, 22);
+  height: 65vh;
+  width: 25vw;
+  border-radius: 100px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.trafficLights {
+  --size: 80px;
+  background-color: grey;
+  border-radius: var(--size);
+  height: var(--size);
+  width: var(--size);
+}
+
+/* .red-light {
+  background-color: red;
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+}
+.yellow-light {
+  background-color: yellow;
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+}
+.green-light {
+  background-color: green;
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+} */
