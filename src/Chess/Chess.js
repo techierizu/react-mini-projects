@@ -47,11 +47,7 @@ function Chess() {
                 className={squareClassName}
                 key={`${cindex}${rindex}`}
                 onClick={() => handleSelected({ rindex, cindex })}
-              >
-                <span style={{ opacity: "100" }}>
-                  {rindex},{cindex}
-                </span>
-              </div>
+              ></div>
             );
           })
         )}
