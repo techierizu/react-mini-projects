@@ -1,0 +1,17 @@
+/* .grid {
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+} */
+.box {
+  background-color: rgb(188, 187, 187);
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black
+  flex-wrap: wrap;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}

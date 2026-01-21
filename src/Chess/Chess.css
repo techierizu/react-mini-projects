@@ -1,0 +1,35 @@
+.black {
+  background-color: rgb(94, 94, 94);
+}
+.board-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 60px);
+}
+
+.square {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid rgba(125, 124, 124, 0.408);
+}
+
+.black {
+  background-color: #3e3e3e;
+}
+.white {
+  background-color: #eeedeb;
+}
+
+/* Bishop path color */
+.green {
+  background-color: #3e6c05 !important;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Selected square color */
+.active {
+  background-color: #3e6c05 !important;
+}
