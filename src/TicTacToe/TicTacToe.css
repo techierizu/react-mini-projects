@@ -1,0 +1,43 @@
+.parent {
+  text-align: center;
+  justify-content: center;
+  color: rgba(127, 41, 41, 0.796);
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.cellStyle {
+  height: 50px;
+  width: 50px;
+  font-size: 35px;
+  border: 2px solid rgba(112, 52, 0, 0.421);
+  background-color: antiquewhite;
+  border-radius: 5px;
+  text-align: center;
+  justify-content: center;
+}
+
+.cellStyle:hover {
+  background-color: rgba(230, 168, 87, 0.838);
+  cursor: pointer;
+}
+
+.reset {
+  margin: 15px;
+  width: 150px;
+  height: 30px;
+  background-color: rgb(255, 217, 167);
+  border: 2px solid rgba(112, 52, 0, 0.421);
+  border-radius: 5px;
+}
+
+.reset:hover {
+  background-color: rgba(230, 168, 87, 0.838);
+  cursor: pointer;
+}
